@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color:black;
+color: #DAA520;
+}
+
+.centralizado{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.imagens{
+  width: 300px; /* Define um tamanho uniforme */
+  height: 100%; /* Mantém a proporção */
+  margin: 10px; /* Espaçamento ao redor das imagens */
+  display: inline-block; /* Deixa as imagens lado a lado */
+  
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+
+.equipe{
+  display: block;
+    margin: auto;
+    width: 750px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 10px;
+}
+
+  .menu a {
+    display: block; 
+    padding: 5px 10px;
+    text-decoration: none; 
+    color:#DAA520;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  .menu {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #DAA520;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    white-space: nowrap; 
+}
+
+
+
+
+
